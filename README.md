@@ -1,61 +1,77 @@
-# Hello Tractor E-commerce Hackathon 🚜
+# **Hello Tractor E-commerce Hackathon 🚜**
 
-Welcome to the Hello Tractor E-commerce Hackathon! This repository serves as the starting point for your project. Please follow the structure outlined below to build your solution. Let’s bring innovation to the agricultural space in Africa!
+Welcome to the Hello Tractor E-commerce Hackathon! This repository is your central workspace for the challenge. Follow the structure below to organize and present your deliverables. Let’s innovate for Africa’s agricultural future!
 
-## Hackathon Overview 🌍
+---
 
-**Objective:**
-Build a secondary marketplace e-commerce platform for buying and selling second-hand tractors, agri-implements, and connecting with trained tractor operators.
+## **Hackathon Overview 🌍**
 
-**Key Features to Implement:**
+### **Objective**
+Design and develop a secondary marketplace e-commerce platform for buying and selling second-hand tractors, agri-implements, and connecting with certified tractor operators.
 
-- **Homepage**: A user-friendly showcase of featured listings with filters for price, location, and brand.
-- **User Registration**: Simple registration with options for email, phone, and social media verification.
-- **Tractor Listings**: Create detailed listings with photos, specs, history, and price.
-- **Search & Filters**: Allow users to filter by various criteria.
-- **Messaging System**: Enable communication between buyers and sellers.
-- **Seller Dashboard**: Provide tools to track listings, performance, and inquiries.
-- **Admin Panel**: Allow administrators to manage listings, approve content, and ensure quality.
+### **Key Features to Implement**
+- **Homepage**: User-friendly showcase of featured listings with filters (price, location, brand).
+- **User Registration**: Secure registration with email, phone, and social media verification.
+- **Tractor Listings**: Create detailed listings with photos, specifications, history, and price.
+- **Search & Filters**: Enable filtering by make, model, price, and location.
+- **Messaging System**: Facilitate direct communication between buyers and sellers.
+- **Seller Dashboard**: Track listing performance, inquiries, and sales.
+- **Admin Panel**: Manage listings, approve content, and ensure platform quality.
 
-**Add-On Features**
-
-- **Dealer Listings**: Include parts and equipment suppliers.
+### **Add-On Features**
+- **Dealer Listings**: Highlight parts and equipment suppliers.
 - **Certified Tractor Operators**: Connect tractor owners with trained operators.
 
-## Project Structure 🗂
+---
 
-This template provides a basic file and folder structure. Feel free to modify it as needed but ensure the following deliverables are included:
+## **Deliverables Checklist ✅**
 
-- **/src**: Primary codebase for your application
-- **/docs**: Include any technical documentation, reports, and diagrams
-- **README.md**: Project overview and instructions (replace this template content as you work on your project)
+Please organize and complete the following deliverables within this repository:
 
-## Deliverables Checklist ✅
+### 1. **Codebase**
+- Ensure all code is well-structured and documented.
+- Use folders for modularity and clarity. Include any configuration or setup files.
 
-For your final submission, please ensure you have the following:
+### 2. **Demo Video**
+- Upload your video to YouTube, Vimeo, or as an mp4 file.
+- **Link to Demo Video**: [Insert your video link here]
 
-1. **Codebase**: Ensure your GitHub repository includes all code with a clear file structure.
-2. **Demo Video**: Provide a brief walkthrough of your application (link to YouTube or Vimeo).
-3. **Technical Documentation**: Include any setup instructions, architectural diagrams, and descriptions of key components in `/docs`.
-4. **Report**: A short project report with key project details, major challenges, and lessons learned.
-5. **Link to Live Demo**: Deploy your app and share the URL.
+### 3. **Live Application URL**
+- Deploy your application to a platform like Vercel, Netlify, or AWS.
+- **Link to Live App**: [Insert live application URL here]
 
-## Submission Process 📥
+### 4. **Technical Documentation**
+- Include setup instructions for running the project locally.
+- Provide any architecture diagrams or flowcharts explaining the design.
+- **Documentation**: Add details in a `docs/` folder or link to relevant markdown files.
 
-1. Complete your project and ensure all deliverables are ready for submission.
-2. **Submission Deadline**: All submissions must be completed by **Friday, Nov 22nd, 23:59 EAT**.
-3. **Submit using Airtable**: Link to the form will be provided on Discord
-   - Fill out the form and provide the required information, including a link to your GitHub repository and any other deliverable URLs.
-4. After submitting, you will not be able to make further changes to this repository, as GitHub Classroom will lock your repository at the deadline.
+### 5. **Project Report**
+Complete this section in a separate ReadMe file `report.md`:
+- **Project Name**: [Insert your project name]
+- **Team Members**: [List all members and their GitHub handles]
+- **Tech Stack**: [Mention all technologies used]
+- **Key Features**: [Briefly list the implemented features]
+- **Challenges**: [Summarize major challenges faced and how they were solved]
+- **Lessons Learned**: [Highlight key takeaways from the project]
 
-## Important Links 🔗
+---
 
+## **Submission Process 📥**
+
+1. Complete your project and ensure all deliverables are present in this repository.
+2. **Submission Deadline**: All submissions must be finalized by **Friday, Nov 22nd, 23:59 EAT**.
+3. Submit your repository by ensuring all deliverables are present in this repository and locked by the deadline.
+
+---
+
+## **Important Links 🔗**
 - [Hackathon Website](https://hackathon.hellotractor.com)
 - [Hello Tractor Main Site](https://hellotractor.com)
 
-## Contact & Support 📞
+---
 
-For any questions or technical support, please message us on discord. Our mentors will be available during office hours to assist.
+## **Contact & Support 📞**
+For any questions, reach out via Discord. Mentors will host office hours to assist with challenges and technical support.
 
 ---
 
