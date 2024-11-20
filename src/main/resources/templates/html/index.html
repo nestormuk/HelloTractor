@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tractor Marketplace</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <link rel="stylesheet" href="../../static/css/styles.css">
+
+
+
+
+</head>
+<body>
+<!-- Header Section -->
+<header class="header">
+    <div class="logo">
+        <img th:src="@{/assets/htlogo.png}" alt="Hello Tractor Logo">
+    </div>
+    <nav class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="auth-buttons">
+        <button class="login">Login</button>
+        <button class="get-started">Get Started</button>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Find Your Next Tractor or Agri-Implement</h1>
+        <img src="https://s3-us-west-2.amazonaws.com/ht-mobileassets/ti_massey_ferguson_tractor_mf5710.png" alt="Tractor Image">
+    </div>
+</section>
+
+<!-- Search and Filter -->
+<section class="search-filter">
+    <div class="search-container">
+        <!-- Search Bar -->
+        <label>
+            <input type="text" placeholder="Search for tractors..." class="search-input">
+            <!-- Submit Button -->
+            <button class="filter-btn">Search</button>
+        </label>
+
+        <!-- Filters Section -->
+        <div class="filters">
+            <!-- Filter by Brand -->
+            <select name="brand" id="brand-filter" class="filter-select">
+                <option value="" disabled selected>Brands</option>
+                <option value="New Holland">New Holland</option>
+                <option value="John Deere">John Deere</option>
+                <option value="Kubota">Kubota</option>
+            </select>
+
+            <!-- Filter by Price Range -->
+            <select name="price" id="price-filter" class="filter-select">
+                <option value="" disabled selected>Price Range</option>
+                <option value="0-10000">$0 - $10,000</option>
+                <option value="10001-20000">$10,001 - $20,000</option>
+                <option value="20001-30000">$20,001 - $30,000</option>
+            </select>
+
+            <!-- Filter by Location -->
+            <select name="location" id="location-filter" class="filter-select">
+                <option value="" disabled selected>Location</option>
+                <option value="Nairobi, Kenya">Nairobi, Kenya</option>
+                <option value="Springfield">Springfield</option>
+                <option value="Kigali, Rwanda">Kigali</option>
+            </select>
+        </div>
+
+
+    </div>
+</section>
+
+
+
+<!-- Product Cards Section -->
+<section class="product-section">
+    <div class="product-card" th:each="product : ${products}">
+        <img th:src="@{${product.photo}}" alt="Product Image" >
+        <h2 th:text="${product.productTitle}">Product Name</h2>
+        <div style="display: flex; justify-content: center">
+            <p th:text="${product.price}">$</p>
+           <p>$</p>
+        </div>
+
+        <p th:text="${product.location}">Location</p>
+        <button>
+            <a th:href="@{'/products/' + ${product.id}}">View Details</a>
+        </button>
+
+    </div>
+
+</section>
+
+</body>
+</html>
