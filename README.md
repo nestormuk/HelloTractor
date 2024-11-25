@@ -1,54 +1,97 @@
-Hello Tractor E-commerce Hackathon 🚜
-Welcome to the Hello Tractor E-commerce Hackathon! This repository is your central workspace for the challenge. Follow the structure below to organize and present your deliverables. Let’s innovate for Africa’s agricultural future!
+# ABC-Cars-Portal
 
-Hackathon Overview 🌍
-Objective
-Design and develop a secondary marketplace e-commerce platform for buying and selling second-hand tractors, agri-implements, and connecting with certified tractor operators.
+A website application that offers a marketplace for buying and selling used
+cars. It allows users to browse a wide selection of pre-owned vehicles and
+place bids on cars they are interested in, providing them with the potential to
+purchase a vehicle at a lower price.
 
-Key Features to Implement
-Homepage: User-friendly showcase of featured listings with filters (price, location, brand).
-User Registration: Secure registration with email, phone, and social media verification.
-Tractor Listings: Create detailed listings with photos, specifications, history, and price.
-Search & Filters: Enable filtering by make, model, price, and location.
-Messaging System: Facilitate direct communication between buyers and sellers.
-Seller Dashboard: Track listing performance, inquiries, and sales.
-Admin Panel: Manage listings, approve content, and ensure platform quality.
-Add-On Features
-Dealer Listings: Highlight parts and equipment suppliers.
-Certified Tractor Operators: Connect tractor owners with trained operators.
-Deliverables Checklist ✅
-Please organize and complete the following deliverables within this repository:
+## Project Overview
 
-1. Codebase
-Ensure all code is well-structured and documented.
-Use folders for modularity and clarity. Include any configuration or setup files.
-2. Demo Video
-Upload your video to YouTube, Vimeo, or as an mp4 file.
-Link to Demo Video: [Insert your video link here]
-3. Live Application URL
-Deploy your application to a platform like Vercel, Netlify, or AWS.
-Link to Live App: [Insert live application URL here]
-4. Technical Documentation
-Include setup instructions for running the project locally.
-Provide any architecture diagrams or flowcharts explaining the design.
-Documentation: Add details in a docs/ folder or link to relevant markdown files.
-5. Project Report
-Complete this section in a separate ReadMe file report.md:
+**There are 2 types of users in this Used Cars Sales portal. They are**
 
-Project Name: [Insert your project name]
-Team Members: [List all members and their GitHub handles]
-Tech Stack: [Mention all technologies used]
-Key Features: [Briefly list the implemented features]
-Challenges: [Summarize major challenges faced and how they were solved]
-Lessons Learned: [Highlight key takeaways from the project]
-Submission Process 📥
-Complete your project and ensure all deliverables are present in this repository.
-Submission Deadline: All submissions must be finalized by Friday, Nov 22nd, 23:59 EAT.
-Submit your repository by ensuring all deliverables are present in this repository and locked by the deadline.
-Important Links 🔗
-Hackathon Website
-Hello Tractor Main Site
-Contact & Support 📞
-For any questions, reach out via Discord. Mentors will host office hours to assist with challenges and technical support.
+1.  Users
+2.  Administrator
 
-Good luck and happy hacking! 🚀
+**Users should be able to perform following functions in the portal**
+
+1.  Register in the Portal
+2.  Login to the Portal
+3.  Post a Car for Sale along with Picture upload
+4.  Deactivate an Existing car sale
+5.  Update their Profile after logging in.
+6.  Book an appointment for test drive
+7.  Post the bidding price
+
+**Administrators should be able to perform the following functions in the
+portal**
+
+1.  Register in the Portal
+2.  Login to the portal
+3.  View List of Registered Users
+4.  Mark a User as Administrator
+5.  Activate / Deactivate a Car post
+6.  Update their profile
+7.  Approve or deny the users appointment based on the bidding
+8.  Transact the sales if price is right
+
+**Both Users & Administrator**
+
+1.  Visit Home Page
+2.  View Car Listing
+3.  Search for a Car by Make, Model, Registration Year & Price Range
+4.  About Us Page
+5.  Contact Us Page
+
+## Technologies Used & System Requirements
+
+Backend : Java SE 11, MySQL 8, Spring Boot, Spring Security <br/>
+Frontend : JSP (Jakarta Server Page), JavaScript, Bootstrap <br/>
+
+## HOW TO RUN
+
+1. **Import Existing Project into Visual Studio Code** <br/>
+2. **Create MySQL database**
+
+```bash
+mysql> create database abc_cars
+```
+
+3. **Setup application.properties**
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/abc_cars
+spring.datasource.username=<YOUR_DB_USERNAME>
+spring.datasource.password=<YOUR_DB_PASSWORD>
+```
+
+4. **Run Java Application and open [http://localhost:8080](http://localhost:8080)**
+
+## Screenshot
+
+<p>Home Page</p>
+<img src="./images/home.png" alt="home_page" width="50%"/>
+<p>Login</p>
+<img src="./images/login.png" alt="login" width="50%"/>
+<p>Profile page</p>
+<img src="./images/profile.png" alt="profile" width="50%"/>
+<p>Cars Page</p>
+<img src="./images/cars.png" alt="cars" width="50%"/>
+<p>Car Detail Page</p>
+<img src="./images/car-detail.png" alt="car_detail" width="50%"/>
+<p>Post Car</p>
+<img src="./images/post-car.png" alt="post_car" width="50%"/>
+<p>Bid Car</p>
+<img src="./images/place-bid.png" alt="bid_car" width="50%"/>
+<p>Test Drive</p>
+<img src="./images/test-drive.png" alt="test_drive" width="50%"/>
+<p>Appointment</p>
+<img src="./images/appointment.png" alt="appointment" width="50%"/>
+<p>My Posted Car</p>
+<img src="./images/my-posted-car.png" alt="my_posted_car" width="50%"/>
+<p>About Page</p>
+<img src="./images/about.png" alt="about" width="50%"/>
+<p>Contact Page</p>
+<img src="./images/contact.png" alt="contact" width="50%"/>
+<p>Admin Pages</p>
+<img src="./images/admin.png" alt="admin" width="50%"/>
+<img src="./images/admin2.png" alt="admin" width="50%"/>
